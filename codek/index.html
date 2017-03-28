@@ -334,7 +334,8 @@
 
                 <ul class="cat">
                     <li class="pull-left">
-                        <h4>Filter by Type:</h4></li>
+                        <h4>Filter by Type:</h4>
+                    </li>
                     <li class="pull-right">
                         <ol class="type">
                             <li><a href="#" data-filter="*" class="active">All</a></li>
@@ -560,12 +561,12 @@
                     <head>
                         <title>reCAPTCHA demo: Explicit render for multiple widgets</title>
                         <script type="text/javascript">
-                            var verifyCallback = function (response) {
+                            var verifyCallback = function(response) {
                                 alert(response);
                             };
                             var widgetId1;
                             var widgetId2;
-                            var onloadCallback = function () {
+                            var onloadCallback = function() {
                                 // Renders the HTML element with id 'example1' as a reCAPTCHA widget.
                                 // The id of the reCAPTCHA widget is assigned to 'widgetId1'.
                                 widgetId1 = grecaptcha.render('example1', {
@@ -581,6 +582,7 @@
                                     'theme': 'dark'
                                 });
                             };
+
                         </script>
                     </head>
 
@@ -606,6 +608,8 @@
                             <input type="submit" value="Submit">
                         </form>
                         <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+
+
                         </script>
                     </body>
 
@@ -626,6 +630,7 @@
                     <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                     <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
                 </ul>
             </div>
         </div>
